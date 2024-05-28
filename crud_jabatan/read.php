@@ -12,7 +12,7 @@ $result = $conn->query($sql);
 </head>
 <body>
     <h2>Daftar User</h2>
-    <a href="create.php">Tambah User Baru</a><br><br>
+    <a href="create.php">Tambah Data jabatan</a><br><br>
     <table border="1">
         <tr>
             <th>ID</th>

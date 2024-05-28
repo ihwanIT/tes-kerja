@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
     }
-    // $conn->close();
+    $conn->close();
 }
 ?>
 
@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
 
     <div class="container mx-20">
-        <center>    <h2>Tambah Pegawai</h2></center>
+        <center><h2>Tambah Pegawai</h2></center>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Nama</label>

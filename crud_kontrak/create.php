@@ -22,12 +22,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>Create data Pegawai</title>
+    <title>Create data Kontrak</title>
 </head>
 <body>
 
     <div class="container mx-20">
-        <center>    <h2>Tambah Pegawai</h2></center>
+        <center><h2>Tambah Pegawai</h2></center>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Nama</label>
